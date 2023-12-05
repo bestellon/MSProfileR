@@ -1,0 +1,36 @@
+Package: MSProfileR
+Title: Fork of MSProfileR
+Version: 1.0
+Authors@R: c(
+    person("Lionel", "Almeras", email = "almeras.lionel@gmail.com", role = c("cre")),
+    person("Refka", "Ben Hamouda", email = "refkabenhamouda10@gmail.com", role = c("aut")),
+    person("Bertrand", "Estellon", email = "bertrand.estellon@univ-amu.fr", role = c("aut")))
+Description: Web application to analyse mass spectra profiles, to assess their quality, to detect their peaks and to classify spectra by clustering tools based on their profiles.
+License: `use_mit_license
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    DT,
+    fontawesome,
+    ggplot2,
+    hdf5r,
+    knitr,
+    MALDIquant,
+    MALDIquantForeign,
+    MALDIrppa,
+    pheatmap,
+    readxl,
+    rjson,
+    shiny,
+    shinyBS,
+    shinybusy,
+    shinydashboard,
+    shinyFiles,
+    shinyjs,
+    shinyWidgets,
+    svglite,
+    tinytex,
+    tools,
+    writexl,
+    zip
+

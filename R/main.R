@@ -1,0 +1,30 @@
+#' Run MSProfileR
+#'
+#' @export
+run <- function() {
+  library(MALDIquantForeign)
+  library(MALDIrppa)
+  library(MALDIquant)
+  library(hdf5r)
+  library(shiny)
+  library(shinydashboard)
+  library(shinyFiles)
+  library(shinyWidgets)
+  library(shinyjs)
+  library(shinybusy)
+  library(DT)
+  library(ggplot2)
+  library(pheatmap)
+  library(rjson)
+  library(fontawesome)
+  library(shinyBS)
+  library(svglite)
+  library(zip)
+  library(readxl)
+  library(writexl)
+  library(tools)
+  library(knitr)
+  library(tinytex)
+  options(shiny.maxRequestSize = 500*1024^2)
+  shinyApp(ui(), server, options=list(launch.browser=T))
+}
